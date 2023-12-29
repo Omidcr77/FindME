@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>findME</title>
+</head>
+<body>
+    <div class="container">
+        <h1>CyberSecurity Forensics Challenge</h1>
+        <p>Welcome to the CTF challenge! Your goal is to find the correct flag.</p>
+        
+       <a href="./and_I_am_Iron_man.png"><button id="downloadBtn">DownloadME</button></a> 
+
+        <div class="flagSection">
+            <label for="flagInput">CheckMe:</label>
+            <input type="text" id="flagInput" placeholder="Enter the flag">
+            <button id="submitFlagBtn" onclick="checkFlag()">Submit Flag</button>
+        </div>
+
+        <p id="result"></p>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
